@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
+const API_BASE = process.env.REACT_APP_API_URL || 'https://portfilo-backend-2026.onrender.com/api/v1';
 
 // ── Base instance ─────────────────────────────────────────────────────────────
 const api = axios.create({

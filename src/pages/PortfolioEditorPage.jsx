@@ -7,6 +7,7 @@ import { Globe, Settings, Layout, Briefcase,
 import DashboardLayout from '../components/shared/DashboardLayout';
 import { portfolioApi } from '../utils/api';
 import toast from 'react-hot-toast';
+import { Save, EyeOff } from "lucide-react";
 
 const TABS = [
   { id: 'sections',   label: 'Sections',   icon: Layout },

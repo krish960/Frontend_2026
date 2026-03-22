@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, Github, Linkedin, Sparkles } from 'lucide-react';
 import useAuthStore from '../store/authStore';
 import toast from 'react-hot-toast';
+import { Inbox } from "lucide-react";
 
 const GOOGLE_CLIENT_ID  = process.env.REACT_APP_GOOGLE_CLIENT_ID  || '';
 const GITHUB_CLIENT_ID  = process.env.REACT_APP_GITHUB_CLIENT_ID  || '';
